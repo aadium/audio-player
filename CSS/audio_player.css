@@ -1,0 +1,101 @@
+.audio_image {
+    border-radius: 30px;
+    width: 250px;
+    margin-top: 5%;
+}
+
+.audio_song_name {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.audio_artist_name {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -10px;
+}
+
+audio {
+    display: none;
+}
+
+body {
+    background-color: #f5f8ff;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 45px;
+    padding: 20px;
+    box-shadow: #1C274C 10px 10px 20px,
+    #ffffff -10px -10px 20px;
+}
+
+.custom-play-button {
+    background: url(../icons/play_audio.svg) no-repeat center;
+    background-size: contain;
+    width: 70px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-stop-button {
+    background: url(../icons/stop_audio.svg) no-repeat center;
+    background-size: contain;
+    width: 70px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-rewind-button {
+    background: url(../icons/rewind_audio.svg) no-repeat center;
+    background-size: contain;
+    width: 30px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-forward-button {
+    background: url(../icons/forward_audio.svg) no-repeat center;
+    background-size: contain;
+    width: 30px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.player {
+    margin-top: 20px;
+    background-color: #c9d2ed;
+    padding: 5px 25px;
+    border-radius: 5em;
+    width: fit-content;
+    box-shadow: #1C274C 3px 3px 5px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #1C274C;
+    border-radius: 5px;
+    width: 0;
+}
