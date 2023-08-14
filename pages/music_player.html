@@ -9,9 +9,9 @@
 <body>
     <center>
         <div class="card">
-            <img class="audio_image" src="../images/formula_1.jpg">
-            <p class="audio_song_name">Formula 1 Theme</p>
-            <p class="audio_artist_name">Brian Tyler</p>
+            <img class="audio_image" id="audioImage">
+            <p class="audio_song_name" id="songName"></p>
+            <p class="audio_artist_name" id="artistName"></p>
             <div class="progress-container">
                 <div class="progress" id="progress"></div>
             </div>
@@ -20,11 +20,12 @@
                 <button class="custom-play-button" id="playButton"></button>
                 <button class="custom-stop-button" id="stopButton"></button>&nbsp;&nbsp;&nbsp;
                 <button class="custom-forward-button" id="forwardButton"></button>
-                <audio id="audioPlayer" src="../audio/formula_1_theme.mp3"></audio>
+                <audio id="audioPlayer"></audio>
             </div>
         </div>
     </center>
-    
+
+    <script src="../JavaScript/url_parse.js"></script>
     <script src="../JavaScript/audio_player.js"></script>
 </body>
 </html>
