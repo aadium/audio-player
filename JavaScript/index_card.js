@@ -15,7 +15,7 @@ fetch('../audioDetails.csv')
                 card.className = 'card';
 
                 const link = document.createElement('a');
-                link.href = `pages/music_player.html?audio=${audio}&image=${image}&song=${encodeURIComponent(song)}&artist=${encodeURIComponent(artist)}`;
+                link.href = `pages/audio_player.html?audio=${audio}&image=${image}&song=${encodeURIComponent(song)}&artist=${encodeURIComponent(artist)}`;
                 link.className = 'audio-link';
 
                 const img = document.createElement('img');
