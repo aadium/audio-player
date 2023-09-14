@@ -31,24 +31,24 @@ body {
     height: fit-content;
     border-radius: 45px;
     padding: 20px;
-    box-shadow: #1C274C 10px 10px 20px,
+    box-shadow: #000 10px 10px 20px,
     #ffffff -10px -10px 20px;
 }
 
 .custom-back-button {
     border: none;
-    background-color: #c9d2ed;
+    background-color: #dedede;
     border-radius: 5px;
     width: 50px;
     height: 50px;
     margin: 20px;
-    box-shadow: #1C274C 4px 4px 10px,
+    box-shadow: #000 4px 4px 10px,
     #ffffff -4px -4px 10px;
     transition: 0.2s;
 }
 
 .custom-back-button:active {
-    box-shadow: #1C274C 1px 1px 6px,
+    box-shadow: #000 1px 1px 6px,
     #ffffff -1px -1px 6px;
 }
 
@@ -99,24 +99,23 @@ body {
 
 .player {
     margin-top: 20px;
-    background-color: #c9d2ed;
+    background-color: #dedede;
     padding: 5px 25px;
     border-radius: 5em;
     width: fit-content;
-    box-shadow: #1C274C 3px 3px 5px;
 }
 
 .progress-container {
     width: 100%;
     height: 10px;
-    background-color: #e0e0e0;
+    background-color: #dedede;
     border-radius: 5px;
     margin-top: 10px;
 }
 
 .progress {
     height: 100%;
-    background-color: #1C274C;
+    background-color: #000;
     border-radius: 5px;
     width: 0;
 }
